@@ -19,5 +19,6 @@ public class ContaTerminal {
         System.out.println("nosso banco, sua agência é " +agencia+ ", e o número da sua conta é o " +String.format(conta)+ ".");
         System.out.println("Seu saldo disponível para saque é de: R$" +saldo);
  
+        scanner.close();
     }
 }
