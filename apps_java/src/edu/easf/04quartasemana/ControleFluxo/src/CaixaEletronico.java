@@ -19,7 +19,8 @@ public class CaixaEletronico {
         else
         System.out.println("Saldo insuficiente para esta operação.");
 
-
+        scanner.close();
     }
+    
     
 }
